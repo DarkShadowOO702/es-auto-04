@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="memorizzaAuto.php" method="post">
+
+        <h4 align="center">----------Inserimento Auto----------</h4>
+        <br>
+
+        <table>
+            <tr>
+                 <td bgcolor="LightBlue">
+                    Marca
+                </td>
+                    
+                <td>
+                    <select name="marca">
+                        <option value="Alfa Romeo">Alfa Romeo</option>
+                        <option value="Porsche">Porsche</option>
+                        <option value="Ferrari">Ferrari</option>
+                        <option value="Lamborghini">Lamborghini</option>
+                        <option value="Fiat">Fiat</option>
+                    </select>
+                </td>
+            </tr>
+            
+
+            <tr>
+                <td bgcolor="LightBlue">
+                    Modello
+                </td>
+
+                <td>
+                    <input type="text" name="modello" size="45">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor="LightBlue">
+                    Stato
+                </td>
+
+                <td>
+                    <input type="radio" name="stato" value="Nuova">
+
+                    <input type="radio" name="stato" value="Usata">
+                </td>
+            </tr>
+
+
+            <tr>
+                 <td bgcolor="LightBlue">
+                    Anno Costruzione
+                </td>
+                    
+                <td>
+                    <select name="anno">
+                        <option value="2007">2007</option>
+                        <option value="2008">2008</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor="LightBlue">
+                    Cilindrata
+                </td>
+
+                <td>
+                    <input type="text" name="cilindrata">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor="LightBlue">
+                    Cavalli
+                </td>
+
+                <td>
+                    <input type="text" name="cavalli">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor="LightBlue">
+                    Prezzo
+                </td>
+
+                <td>
+                    <input type="text" name="prezzo"> Euro
+                </td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor="LightBlue">
+                    Targa
+                </td>
+
+                <td>
+                    <input type="text" name="targa" size="30">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor="LightBlue">
+                    Accesori
+                </td>
+
+                <td>
+                    <input type="checkbox" name="accessori[]" value="Aria Condizioanata">
+                    Aria Condizionata
+
+                    <input type="checkbox" name="accessori[]" value="Vernice Metallizzata">
+                    Vernice Metallizzata
+
+                    <input type="checkbox" name="accessori[]" value="Tetto in Cristallo">
+                    Tetto in Cristallo
+
+                    <input type="checkbox" name="accessori[]" value="Impianto Radio-CD">
+                    Impianto Radio-CD
+                    <br>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor="LightBlue">
+                    Descrizione Aggiuntiva
+                </td>
+
+                <td>
+                    <input type="text" name="descrizione" size="60" width="30">
+                </td>
+            </tr>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+        </table>
+
+        <br>
+
+        <input type="submit" value="Invia">
+        <input type="reset" value="Cancella">
+
+    </form>
+    
+</body>
+</html>
